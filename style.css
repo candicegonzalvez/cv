@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=League+Gothic&family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=BhuTuka+Expanded+One&family=League+Gothic&family=Raleway:wght@200&display=swap");
+
+h1 {
+	text-align: center;
+	color: #C3A7A1;
+	font-family: 'Anton', cursive;
+	font-size: 350%;
+	margin: 0;
+	background-color: white;
+}
+
+h2{
+	color: #C3A7A1; 
+	text-align: center;
+	border: 1px  solid #26221F;
+	width: 100%;	
+	font-family: 'Anton', cursive;
+}
+
+p{
+	color: #26221F;
+}
+
+body {
+  font-family: 'raleway', serif;
+/*  background-color: rgb(255,245,238);*/
+background: #C3A7A1;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  padding: 24px;
+  width: 70%;
+  margin: 16px auto;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 1px #C3A7A1;
+}
+
+a {
+	text-decoration: none;
+	color: #26221F;
+}
+
+img{
+	height: auto;
+	width: 10%;
+	object-fit: cover;
+}
+
+
+.hello{
+	text-align: center;
+	color: #C3A7A1;
+	font-family: 'Anton', cursive;
+	font-size: 200%;
+	margin: 0;
+	background-color: white;
+}
+
+#avatar {
+	background-size: cover;
+	background-position: center;
+	height: 125px;
+	width: 125px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 1px solid:black;
+	margin: 10px auto;
+	padding: auto;
+}
+
+/*commentaire*/
+
+
+.btn-blue {
+	background-size: cover;
+	color: white;
+	background: #C3A7A1;
+	padding: 8px 16px;
+	border-radius: 6px;
+	border: 1px solid #C3A7A1;
+	font-weight: bolder;
+	font-family: 'raleway', cursive;
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.btn-blue:hover {
+	background: white;
+	color: #C3A7A1;
+	transition: 1s;
+	border-color: 1px  solid #26221F;
+
+}
+
+.logo{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+/*	max-width: auto;
+	height: auto;*/
+}
+
+.liste-left {
+	column-count: 2
+}
+
+.list-inline{
+	padding: 0;
+	list-style: none;
+	font-size: 40px;
+	background-color: white;
+ 	
+}
+
+.list-inline li{
+display: inline;
+}
+
+.fab{
+	color: #26221F;
+	font-weight: bolder;
+	height: 15px
+	margin: auto;
+}
+
+.fab:hover{
+  	color: #F7DBDB;
+  	transition: 1s;
+}
+
+
+@media (min-width: 576px) {
+	div	{
+		width: 450px;
+	}
+}
+
+@media (min-width: 768px) {
+	div	{
+		width: 550px;
+	}
+}
+
+@media (min-width: 992px) {
+	div	{
+		width: 750px;
+	}
+}
